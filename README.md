@@ -1,2 +1,2 @@
 # marionettify
-Marionette.js template with Marionette.Module, Browserify y node-underscorify
+Marionette.js template with Marionette.Module, Browserify and node-underscorify
