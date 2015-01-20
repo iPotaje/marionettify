@@ -1,0 +1,20 @@
+{
+  "name": "marionettify",
+  "version": "0.0.1",
+  "description": "Marionette.js template with Marionette.Module, Browserify and node-underscorify",
+  "author": "Emilio G. Correa <ipotaje@gmail.com>",
+  "scripts": {
+    "build": "browserify -t node-underscorify src/js/main.js -o js/build.js"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "backbone.marionette": "^2.3.1",
+    "jquery": "^2.1.3",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.2",
+    "browserify": "^8.1.1",
+    "node-underscorify": "0.0.14"
+  }
+}
